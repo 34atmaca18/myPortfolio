@@ -1,1 +1,1 @@
-# [myPortfolio](https://atmaca3418.netlify.app)
+# [linkPortfolio](https://atmaca3418.netlify.app)
