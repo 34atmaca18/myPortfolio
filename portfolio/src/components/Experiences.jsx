@@ -18,8 +18,8 @@ const Experiences = () => {
             {experiences.map((exp,index) => (
               <div
               key={index}
-              className='w-[70%] shadow-cc shadow-[#2f375c] max-md:w-[85%] max-ss:w-full min-h-[150px] 
-              rounded-[20px] flex flex-row max-xs:flex-col justify-between py-[30px] max-ss:py-[13px] max-ss:gap-4 px-[20px] max-xs:px-[10px]'
+              className={`w-[70%] shadow-cc shadow-[#2f375c] max-md:w-[85%] max-ss:w-full min-h-[150px] ${index % 2 === 0 ? 'self-start' : 'self-end'}
+              rounded-[20px] flex flex-row max-xs:flex-col justify-between py-[30px] max-ss:py-[13px] max-ss:gap-4 px-[20px] max-xs:px-[10px]`}
               >
                 <div className="textleft w-[40%] max-xs:w-full text-gradient">
                   <h1 className='text-[16px] font-extrabold'>{exp.title}</h1>

@@ -1,3 +1,6 @@
+import project1 from "./assets/project1.png"
+import project2 from "./assets/project2.png"
+
 export const navLinks = [
     {
         title: 'Home',
@@ -23,10 +26,20 @@ export const navLinks = [
 
 export const projects = [
     {
-        name: 'a Shopping Website',
+        name: 'Shopping Website!',
         id:1,
         paragraph: 'It is an online platform that allows to user can shop from the products that the website has. The project is only a demo so you can check the working parts which are the shopping card and user login and sign-up screens.',
-        url: '../assets/project1.png'
+        url: project1,
+        urlgit: "https://github.com/34atmaca18/shoppingWebsite",
+        livedemo: "",
+    },
+    {
+        name: 'Nike App!',
+        id:2,
+        paragraph: 'Design is belongs to JavaScript Mastery on Youtube but the whole designing code belongs to me. I used the assets file and index.js file to bring the project`s pngs, icons, lists. Modern looking Nike website!',
+        url: project2,
+        urlgit: "https://github.com/34atmaca18/nikeApp",
+        livedemo: "https://nikeappaydo.netlify.app"
     }
 ]
 
