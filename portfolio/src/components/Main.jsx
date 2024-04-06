@@ -35,19 +35,19 @@ const Main = () => {
                     </a> 
                 </div>
             </div>
-            <img className='brightness-[60%] rounded-[50px] w-[300px] h-[300px] shadow-cc' src={foto1} alt='vesikalik'></img>
+            <img className='brightness-[60%] rounded-[50px] w-[300px] h-[300px] shadow-cc myFoto' src={foto1} alt='vesikalik'></img>
         </div>
         <div id='alt' className='flex gap-4 mt-[80px] absolute bottom-[190px] w-full max-md:relative max-md:bottom-0'>
             <p className='font-poppins border-r-[2px] border-white text-[18px] max-md:text-[16px] text-white pr-7 max-ss:pr-2'>Tech Stack</p>
             <div className="flex gap-5 flex-wrap">
-                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 bg-hover`} src={html} alt="html" />
-                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 bg-hover`} src={css} alt="css" />
-                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 bg-hover`} src={js} alt="js" />
-                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 bg-hover`} src={react} alt="react" />
-                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 bg-hover`} src={tw} alt="tailwind" />
-                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 bg-hover`} src={java} alt="java" />
-                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 bg-hover`} src={python} alt="python" />
-                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 bg-hover`} src={c} alt="c" />
+                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 myHover `} src={html} alt="html" />
+                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 myHover`} src={css} alt="css" />
+                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 myHover`} src={js} alt="js" />
+                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 myHover`} src={react} alt="react" />
+                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 myHover`} src={tw} alt="tailwind" />
+                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 myHover`} src={java} alt="java" />
+                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 myHover`} src={python} alt="python" />
+                <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 myHover`} src={c} alt="c" />
             </div>
         </div>
     </div>

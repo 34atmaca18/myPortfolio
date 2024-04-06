@@ -17,6 +17,27 @@ code {
     monospace;
 }
 
+@keyframes myanimation {
+  0% {
+    border-radius: 40% 50% 40% 50%/40% 50% 40% 50%;
+    border-color: white;
+  }
+  50% {
+      border-radius: 55% 40% 55% 40%/55% 40% 55% 40%;
+      border-color: rgb(0, 170, 255);
+  }
+  100% {
+      border-radius: 40% 50% 40% 50%/40% 50% 40% 50%;
+      border-color: white;
+  }
+}
+
+.myFoto {
+  animation: myanimation 5s ease-in-out infinite;
+  border: 3.5px solid white;
+  
+}
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -65,6 +86,12 @@ code {
 background: linear-gradient(90deg, rgba(5,12,13,1) 0%, rgba(12,26,48,1) 43%, rgba(23,46,88,1) 70%, rgba(57,92,161,1) 100%);
 }
 
+
+.myHover:hover {
+  margin-top: -10px;
+  background: rgb(4, 0, 63);
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -103,9 +130,6 @@ background: linear-gradient(90deg, rgba(5,12,13,1) 0%, rgba(12,26,48,1) 43%, rgb
   );
 }
 
-.bg-hover:hover {
-  background: rgb(34, 74, 93);
-}
 
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
