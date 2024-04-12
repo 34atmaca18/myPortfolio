@@ -22,11 +22,11 @@ const Main = () => {
         <div className='absolute top-[200px] left-0 pink__gradient w-[20%] h-[20%] rounded-[50%]'></div>
         <div id='üst' className='mt-[-150px] w-full flex flex-row justify-between items-initial flex-wrap
         max-mdp:gap-[40px]'>
-            <div className='font-poppins text-white flex flex-col gap-3'>
-                <h1 className='text-[35px] leading-[43px] text-gradient font-bold '>Frontend React Developer</h1>
+            <div className='font-poppins text-white flex flex-col gap-3 max-md:text-center max-md:w-full'>
+                <h1 className='text-[35px] leading-[43px] text-gradient font-bold'>Frontend React Developer!</h1>
                 <p className='text-[16px] font-semibold max-md:hidden'>Hi I'm Aydoğan Uyanıkoğlu. A Frontend Developer<br />based in Istanbul/Turkey.</p>
                 <p className='text-[16px] font-semibold hidden max-md:block'>Hi I'm Aydoğan Uyanıkoğlu. A Frontend Developer based in Istanbul/Turkey.</p>
-                <div className="flex flex-row gap-2 ">
+                <div className="flex flex-row gap-2 max-md:justify-center">
                     <a href="https://www.linkedin.com/in/aydoğan-uyanıkoğlu-337a62285/" rel="noreferrer" target='_blank'>
                         <img className='w-[32px] h-[32px] border-[1px] border-white p-1 rounded-[5px]' src={linkdn} alt="" />
                     </a>
@@ -35,9 +35,11 @@ const Main = () => {
                     </a> 
                 </div>
             </div>
-            <img className='brightness-[60%] rounded-[50px] w-[300px] h-[300px] shadow-cc myFoto' src={foto1} alt='vesikalik'></img>
+            <div className='max-md:w-full flex max-md:justify-center'>
+                <img className='brightness-[60%] rounded-[50px] w-[300px] h-[300px] shadow-cc myFoto' src={foto1} alt='vesikalik'></img>
+            </div>
         </div>
-        <div id='alt' className='flex gap-4 mt-[80px] absolute bottom-[190px] w-full max-md:relative max-md:bottom-0'>
+        <div id='alt' className='flex gap-4 mt-[80px] absolute bottom-[190px] w-full max-md:relative max-md:bottom-0 max-md:justify-center'>
             <p className='font-poppins border-r-[2px] border-white text-[18px] max-md:text-[16px] text-white pr-7 max-ss:pr-2'>Tech Stack</p>
             <div className="flex gap-5 flex-wrap">
                 <img className={`${styles.icons} border-[1px] border-white rounded-[5px] p-2 myHover `} src={html} alt="html" />
